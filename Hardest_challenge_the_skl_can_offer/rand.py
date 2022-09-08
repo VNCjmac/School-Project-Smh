@@ -1,0 +1,1 @@
+import random;names=[input("Enter a name {}/{}: ".format(i+1, 5)) for i in range(5)];print("Randomly Chosen Name: " + random.choice(names))
